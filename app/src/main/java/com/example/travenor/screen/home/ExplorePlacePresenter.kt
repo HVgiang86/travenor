@@ -150,6 +150,7 @@ class ExplorePlacePresenter internal constructor(
             LatLng(randomLat, randomLng),
             object : ResultListener<List<Place>> {
                 override fun onSuccess(data: List<Place>?) {
+
                     if (data.isNullOrEmpty()) {
                         mView?.onGetExplorePlaceFail(
                             Exception(GET_NULL_EXCEPTION_MSG),

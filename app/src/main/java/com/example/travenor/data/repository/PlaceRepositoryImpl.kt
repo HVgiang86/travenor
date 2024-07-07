@@ -230,6 +230,8 @@ class PlaceRepositoryImpl private constructor(
                         local.savePlaceDetail(it)
                         local.savePlaceAddress(it)
                     }
+
+                    listener.onSuccess(data)
                 }
 
                 override fun onError(exception: Exception?) {

@@ -107,6 +107,7 @@ class HomeFragment :
     }
 
     override fun onGetExplorePlaceSuccess(locationList: List<Place>, placeCategory: PlaceCategory) {
+
         when (placeCategory) {
             PlaceCategory.ATTRACTIONS -> {
                 viewBinding.containerExploreAttractionTitle.visibility = View.VISIBLE

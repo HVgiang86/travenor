@@ -113,11 +113,6 @@ class NetWorker private constructor(
                             val responseBody =
                                 inputStream.bufferedReader().use(BufferedReader::readText)
 
-                            Log.d(
-                                LOG_TAG,
-                                "HTTP CONNECTION\nRequest:$url\nResponse: $responseBody"
-                            )
-
                             val data = Gson().fromJson(responseBody, parseType) as T
                             uiHandler.post {
                                 callback.onResponse(responseBody, Response(data))

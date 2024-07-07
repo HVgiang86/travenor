@@ -124,6 +124,7 @@ class PlaceRemoteDataSource private constructor(
                     response: Response<PlaceSearchResponse>
                 ) {
                     val placeList = response.data.placeList
+
                     for (place in placeList)
                         place.locationType = category.name.lowercase()
 
@@ -219,6 +220,7 @@ class PlaceRemoteDataSource private constructor(
             Handler(Looper.getMainLooper()).post {
                 // return result to UI thread
                 if (result.isNotEmpty()) {
+
                     listener.onSuccess(result)
                 } else {
                     listener.onError(Exception("No result"))

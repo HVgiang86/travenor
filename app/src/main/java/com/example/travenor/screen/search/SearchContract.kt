@@ -20,3 +20,5 @@ interface SearchContract {
         fun saveRecentSearchString(searchString: List<String>)
     }
 }
+//Glide - using to load image
+//Retrofit

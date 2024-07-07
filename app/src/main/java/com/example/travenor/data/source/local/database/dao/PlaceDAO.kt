@@ -166,6 +166,7 @@ class PlaceDAO private constructor(context: Context) {
     }
 
     fun getPlaceData(locationId: String): Place? {
+        
         val db = sqlHelper.readableDatabase
         val columns = getPlaceDataQueryColumnArray()
         val selectionString = "${PlaceTable.COL_LOCATION_ID} =? "

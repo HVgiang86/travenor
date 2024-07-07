@@ -63,6 +63,7 @@ dependencies {
     implementation Deps.material
     implementation Deps.constraint_layout
     testImplementation Deps.junit
+
     androidTestImplementation Deps.androidx_junit
     androidTestImplementation Deps.androidx_espresso_core
     implementation Deps.flexBoxlayout
@@ -71,4 +72,7 @@ dependencies {
     implementation Deps.glide
     implementation Deps.playServiceLocation
     implementation Deps.playServiceMap
+
+    implementation('com.squareup.retrofit:retrofit:2.0.0-beta2')
+    implementation('com.squareup.retrofit:converter-gson:2.0.0-beta2')
 }

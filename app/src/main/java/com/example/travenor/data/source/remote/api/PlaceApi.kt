@@ -48,3 +48,4 @@ interface PlaceApi {
         @Query("language") language: String = "vi"
     ): Call<PlaceSearchResponse>
 }
+

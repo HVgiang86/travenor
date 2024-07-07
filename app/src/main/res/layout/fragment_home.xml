@@ -131,17 +131,6 @@
                     android:textAppearance="@style/Theme.Androidtemplate.TextAppearance.BoldBody"
                     android:textSize="@dimen/sp_20" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_toEndOf="@+id/text_explore_attaction_title"
-                    android:gravity="end"
-                    android:text="@string/explore_view_all"
-                    android:textAppearance="@style/Theme.Androidtemplate.TextAppearance.Body"
-                    android:textColor="@color/action_color"
-                    android:textSize="@dimen/sp_18" />
-
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -175,17 +164,6 @@
                     android:textAppearance="@style/Theme.Androidtemplate.TextAppearance.BoldBody"
                     android:textSize="@dimen/sp_20" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_toEndOf="@id/text_explore_restaurant_title"
-                    android:gravity="end"
-                    android:text="@string/explore_view_all"
-                    android:textAppearance="@style/Theme.Androidtemplate.TextAppearance.Body"
-                    android:textColor="@color/action_color"
-                    android:textSize="@dimen/sp_18" />
-
             </RelativeLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -218,17 +196,6 @@
                     android:text="@string/explore_hotel_title"
                     android:textAppearance="@style/Theme.Androidtemplate.TextAppearance.BoldBody"
                     android:textSize="@dimen/sp_20" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_toEndOf="@+id/text_explore_hotel_title"
-                    android:gravity="end"
-                    android:text="@string/explore_view_all"
-                    android:textAppearance="@style/Theme.Androidtemplate.TextAppearance.Body"
-                    android:textColor="@color/action_color"
-                    android:textSize="@dimen/sp_18" />
 
             </RelativeLayout>
 
