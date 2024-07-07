@@ -275,7 +275,7 @@ class ExplorePlacePresenter internal constructor(
         )
 
         // random index in range from 0 -> string seeds size - 1
-        val randomIndex = Random().nextInt() % stringSeeds.size
+        val randomIndex = Random().nextInt(stringSeeds.size)
 
         return stringSeeds[randomIndex].name
     }
